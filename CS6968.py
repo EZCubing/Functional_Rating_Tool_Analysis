@@ -79,7 +79,7 @@ def calculate_criterion_validity(data, observed_col, estimated_col):
 # Example usage 
 if __name__ == "__main__":
     # Load the dataset
-    file_path = "/Users/ezcubing/Downloads/Problem set 1 - Validity, Reliability.xlsx"  # Replace with the actual file path
+    file_path = "Problem set 1 - Validity, Reliability.xlsx"  # Replace with the actual file path
     df = pd.read_excel(file_path)
 
     # Columns for test-retest reliability
