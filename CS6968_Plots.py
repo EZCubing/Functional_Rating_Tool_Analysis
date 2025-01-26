@@ -49,7 +49,7 @@ def plot_bland_altman(data1, data2, title):
 # Example usage
 if __name__ == "__main__":
     # Load the dataset 
-    file_path = "/Users/ezcubing/CS_6968/Problem set 1 - Validity, Reliability.xlsx" 
+    file_path = "Problem set 1 - Validity, Reliability.xlsx" 
     df = pd.read_excel(file_path)
 
     # Generate scatter plots for Test-Retest Reliability
